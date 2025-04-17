@@ -11,7 +11,7 @@ int main()
     maior = num;
     while (num > 0)
     {
-        if(num > 0)
+        if(num > maior)
         {
             maior = num;
         }

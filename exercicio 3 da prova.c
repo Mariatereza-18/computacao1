@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
- void converteHora(int total_segundos, int *hora, int *min, int *seg)
+void converteHora(int total_segundos, int *hora, int *min, int *seg)
 {
 
     *hora= total_segundos/3600;
@@ -10,7 +10,7 @@
     *seg = total_segundos%60;
 }
 
- int main()
+int main()
 {
     int total, hh, mm, ss;
 
